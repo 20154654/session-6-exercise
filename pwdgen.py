@@ -11,5 +11,9 @@ if len(sys.argv)>1:
         char_index = random.randint(0,25)
         char_index += ord('a')
         password += chr(char_index)
+    
+    print(password)
 
-print(password)
+## in terminal/command, type the following commend to run this code
+## python .\pwdgen.py 10
+## this will give 10 digits pwd
